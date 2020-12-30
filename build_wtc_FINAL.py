@@ -17,13 +17,23 @@ ao=246
 tnt=46
 gstone=89
 
+#Using Absolute Coordinates (poor design)
+    
+#x=-66.5
+#x1=-80.5
+#y=0.0
+#z1=-15.5
+#z=-29.5
 
-x=-66.5
-x1=-80.5
-y=0.0
-z1=-15.5
-z=-29.5
+#This method uses relative coordinates.  Adjust as needed
+#You can offset by 14 blocks to build the second tower
+#as the footprint is 12x12
 
+x=a
+x1=(a-14)
+y=b
+z=c
+z1=(c-14)
 
 #Building and Roof
 mc.setBlocks(x+1, y+0, z+1, x+11, y+40, z+11, iron)
